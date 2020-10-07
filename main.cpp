@@ -1,3 +1,4 @@
+//C++17< Enter your text in s!!!//
 #include <iostream>
 #include <string>
 int main() {
@@ -24,7 +25,7 @@ int main() {
     }
     float res;
     for(int i = 0; i <= 25; i++){
-        res = ((float)arr[i].num)*100/sum;
+        res = ((float)arr[i].num)*100/(float)sum;
         std::cout << arr[i].letter << " = " << res << " with " << arr[i].num << " enters;" << std::endl;
     }
     std::cout << "The end sorted letters:" << std::endl;
